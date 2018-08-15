@@ -1,0 +1,51 @@
+title: Pittsburgh Legal Stuff
+description: A Legal Resource for Allegheny County
+
+alert:
+  published: true
+  text: "This information is provided for informational purposes and does not constitute legal advice."
+
+jail-support:
+  above-number-label: "Pittsburgh Municipal Court"
+  number: "(412) 350-6720"
+  number-url: "+1-412-350-6720"
+  below-help: "For arraignment info, press 1."
+  above-collect-label: "Allegheny County Jail"
+  collect-number: "(412) 350-2000"
+  collect-number-url: "+1-412-350-2000"
+  below-collect-help: |
+    This number is XXXX.
+  detailed-help: |
+  nav: ""
+
+kyr:
+
+arest-process:
+
+calls-to-action:
+  jail-support: "What to do if SOMEONE ELSE has been ARRESTED"
+  post-release: "What to do if YOU'VE been ARRESTED"
+  arrest-process: "What to EXPECT if you're ARRESTED"
+  donate: "DONATE to legal support funds"
+  kyr: "KNOW YOUR RIGHTS materials"
+  updates: "Other legal INFO & RESOURCES"
+
+donate:
+  J20-fund:
+    link: https://fundrazr.com/J20-legal
+    header: "Donate to Pittsburgh #J20 Protesters"
+    enabled: true
+    text: Funds are needed to help pay lawyer fees, settle fines and court costs, and cover travel/housing costs for the 10 Pittsburghers arrested protesting at Trump's inauguration. 
+
+  Trump-fund:
+    link: http://pghlegaldefen.se/
+    header: "Donate to Pittsburgh Trump Arrestees"
+    enabled: true
+    text: Funds are needed to help pay lawyers fees, fines, and court costs for the 3 Pittsburghers arrested protesting Trump's campaign stop in Pittsburgh.
+    
+  ACJ11-fund:
+    link: https://www.fundedjustice.com/71Dss1?ref=sh_b6YOs8
+    header: "Donate to ACJ 3/20 Arrestees"
+    enabled: true
+    text: Funds are needed to help pay lawyers fees, fines, and court costs for the 11 Pittsburghers arrested at a solidarity demonstration outside of Allegheny County Jail.
+    

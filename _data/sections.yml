@@ -1,0 +1,42 @@
+home:
+  menu: Home
+  title: Legal Stuff or Whatever
+  leadin: >
+    Legal Info & Resources for Those Arrested in Pittsburgh/Allegheny County
+  photo:
+  template: home.html
+
+jail-support:
+  title: Jail Support
+  menu: Jail Support
+  template: jail-support
+  leadin: >
+    Information for those trying to locate people.
+
+post-release:
+  title: Arrestee Support
+  menu: Post Release
+  leadin: >
+    Information for those released.
+  text:  >
+
+arrest-process:
+  title: Arrest Process
+  menu: Arrest Process
+  leadin: >
+    What to expect if you're arrested.
+
+kyr:
+  title: Know Your Rights
+  menu: Your Rights
+  template: kyr.html
+  leadin: >
+    This FAQ is for informational purposes only and does not constitute legal advice!
+  text: >
+  
+donate:
+  title: Donate
+  menu: Donate
+  template: default
+  leadin: >
+    Various arrestee support funds. 
