@@ -1,0 +1,38 @@
+{% assign faqs = site.categories.faq | where: "faqtype", include.type %}
+{% if faqs[0] %}
+<h2 class="text-center">Frequently Asked Questions</h2>
+{% endif %}
+{% if include.display == 'grid' %}
+  {% assign sortedfaqs = faqs | sort:"date"  %}
+  <div class="row">
+  {% for faq in sortedfaqs %}
+    <div class="col-md-6 text-align-left" >
+      <div>
+        <h4>{{faq.title}}</h4>
+        <div>{{faq.content}}</div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+{% elsif include.display == 'accordion' %}
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  {% assign sortedfaqs = faqs | sort:"title"  %}
+  {% for faq in sortedfaqs %}
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="heading{{forLoop.index}}">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}" aria-controls="collapseOne">
+          <span class="fa fa-plus-square-o"></span>
+          <span>{{faq.title}}</span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{forLoop.index}}">
+      <div class="panel-body">
+        {{faq.content}}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+{% endif %}
