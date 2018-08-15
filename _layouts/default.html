@@ -1,0 +1,12 @@
+---
+title: 'Legal Stuff or Whatever'
+---
+<!DOCTYPE html>
+<html lang="en" manifest="{{site.baseurl}}/appcache.manifest">
+{% include common/head.html %}
+<body data-spy="scroll" data-target="#main-navigation">
+  {% include common/navigation.html %}
+    {{content}}
+  <div id="back-to-top"><a href="#home"><span class="fa fa-lg fa-arrow-up"></span></a></div>
+  {% include common/scripts.html %}
+</body>
